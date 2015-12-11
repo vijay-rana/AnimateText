@@ -1,0 +1,371 @@
+[
+ {
+ "id": 9266,
+ "start": "35.428",
+ "ending": "35.822723",
+ "note": "abc",
+ "id_song": 65,
+ "version": null,
+ "position": 1
+ },
+ {
+ "id": 9267,
+ "start": "35.938818",
+ "ending": "36.496074",
+ "note": "def",
+ "id_song": 65,
+ "version": null,
+ "position": 2
+ },
+ {
+ "id": 9268,
+ "start": "36.681826",
+ "ending": "36.983673",
+ "note": "ghi",
+ "id_song": 65,
+ "version": null,
+ "position": 3
+ },
+ {
+ "id": 9269,
+ "start": "37.099768",
+ "ending": "38.051747",
+ "note": "gkl",
+ "id_song": 65,
+ "version": null,
+ "position": 4
+ },
+ {
+ "id": 9270,
+ "start": "38.469689",
+ "ending": "39.305573",
+ "note": "mno",
+ "id_song": 65,
+ "version": null,
+ "position": 5
+ },
+ {
+ "id": 9271,
+ "start": "39.398449",
+ "ending": "39.978924",
+ "note": "حبّك",
+ "id_song": 65,
+ "version": null,
+ "position": 6
+ },
+ {
+ "id": 9272,
+ "start": "40.0718",
+ "ending": "40.977341",
+ "note": "أنا",
+ "id_song": 65,
+ "version": null,
+ "position": 7
+ },
+ {
+ "id": 9273,
+ "start": "41.395283",
+ "ending": "41.69713",
+ "note": "ماتوب",
+ "id_song": 65,
+ "version": null,
+ "position": 8
+ },
+ {
+ "id": 9276,
+ "start": "43.020613",
+ "ending": "44.065468",
+ "note": "Am",
+ "id_song": 65,
+ "version": null,
+ "position": 11
+ },
+ {
+ "id": 9277,
+ "start": "44.320877",
+ "ending": "45.226418",
+ "note": "Also",
+ "id_song": 65,
+ "version": null,
+ "position": 12
+ },
+ {
+ "id": 9278,
+ "start": "45.319294",
+ "ending": "45.783674",
+ "note": "Fine",
+ "id_song": 65,
+ "version": null,
+ "position": 13
+ },
+ {
+ "id": 9279,
+ "start": "45.899769",
+ "ending": "46.898186",
+ "note": "Where",
+ "id_song": 65,
+ "version": null,
+ "position": 14
+ },
+ {
+ "id": 9280,
+ "start": "47.26969",
+ "ending": "48.19845",
+ "note": "Are",
+ "id_song": 65,
+ "version": null,
+ "position": 15
+ },
+ {
+ "id": 9281,
+ "start": "48.291326",
+ "ending": "48.686049",
+ "note": "You",
+ "id_song": 65,
+ "version": null,
+ "position": 16
+ },
+ {
+ "id": 9282,
+ "start": "48.802144",
+ "ending": "49.661247",
+ "note": "From",
+ "id_song": 65,
+ "version": null,
+ "position": 17
+ },
+ {
+ "id": 9283,
+ "start": "50.241722",
+ "ending": "50.613226",
+ "note": "Am",
+ "id_song": 65,
+ "version": null,
+ "position": 18
+ },
+ {
+ "id": 9284,
+ "start": "50.682883",
+ "ending": "51.193701",
+ "note": "From",
+ "id_song": 65,
+ "version": null,
+ "position": 19
+ },
+ {
+ "id": 9285,
+ "start": "51.286577",
+ "ending": "51.704519",
+ "note": "India",
+ "id_song": 65,
+ "version": null,
+ "position": 20
+ },
+ {
+ "id": 9286,
+ "start": "51.797395",
+ "ending": "53.028002",
+ "note": "Ok",
+ "id_song": 65,
+ "version": null,
+ "position": 21
+ },
+ {
+ "id": 9287,
+ "start": "53.213754",
+ "ending": "53.515601",
+ "note": "Fine",
+ "id_song": 65,
+ "version": null,
+ "position": 22
+ },
+ {
+ "id": 9288,
+ "start": "53.608477",
+ "ending": "54.165733",
+ "note": "How",
+ "id_song": 65,
+ "version": null,
+ "position": 23
+ },
+ {
+ "id": 9289,
+ "start": "54.23539",
+ "ending": "54.722989",
+ "note": "Old",
+ "id_song": 65,
+ "version": null,
+ "position": 24
+ },
+ {
+ "id": 9290,
+ "start": "54.839084",
+ "ending": "56.046472",
+ "note": "Are",
+ "id_song": 65,
+ "version": null,
+ "position": 25
+ },
+ {
+ "id": 9291,
+ "start": "56.278662",
+ "ending": "56.603728",
+ "note": "You",
+ "id_song": 65,
+ "version": null,
+ "position": 26
+ },
+ {
+ "id": 9292,
+ "start": "56.673385",
+ "ending": "57.160984",
+ "note": "I",
+ "id_song": 65,
+ "version": null,
+ "position": 27
+ },
+ {
+ "id": 9293,
+ "start": "57.25386",
+ "ending": "57.741459",
+ "note": "Am",
+ "id_song": 65,
+ "version": null,
+ "position": 28
+ },
+ {
+ "id": 9294,
+ "start": "57.834335",
+ "ending": "58.693438",
+ "note": "23",
+ "id_song": 65,
+ "version": null,
+ "position": 29
+ },
+ {
+ "id": 9295,
+ "start": "59.134599",
+ "ending": "59.761512",
+ "note": "Years",
+ "id_song": 65,
+ "version": null,
+ "position": 30
+ },
+ {
+ "id": 9296,
+ "start": "59.854388",
+ "ending": "60.27233",
+ "note": "Old",
+ "id_song": 65,
+ "version": null,
+ "position": 31
+ },
+ {
+ "id": 9297,
+ "start": "60.365206",
+ "ending": "60.620615",
+ "note": "Anything",
+ "id_song": 65,
+ "version": null,
+ "position": 32
+ },
+ {
+ "id": 9298,
+ "start": "61.290272",
+ "ending": "61.911908",
+ "note": "Else",
+ "id_song": 65,
+ "version": null,
+ "position": 33
+ },
+ {
+ "id": 9299,
+ "start": "62.060193",
+ "ending": "62.36204",
+ "note": "Nothing",
+ "id_song": 65,
+ "version": null,
+ "position": 34
+ },
+ {
+ "id": 9300,
+ "start": "62.454916",
+ "ending": "63.035391",
+ "note": "Important",
+ "id_song": 65,
+ "version": null,
+ "position": 35
+ },
+ {
+ "id": 9301,
+ "start": "63.128267",
+ "ending": "63.615866",
+ "note": "Ok",
+ "id_song": 65,
+ "version": null,
+ "position": 36
+ },
+ {
+ "id": 9302,
+ "start": "63.708742",
+ "ending": "64.730378",
+ "note": "Bye",
+ "id_song": 65,
+ "version": null,
+ "position": 37
+ },
+ {
+ "id": 9303,
+ "start": "65.171539",
+ "ending": "65.566262",
+ "note": "Bye",
+ "id_song": 65,
+ "version": null,
+ "position": 38
+ },
+ {
+ "id": 9304,
+ "start": "65.659138",
+ "ending": "66.123518",
+ "note": "Bye",
+ "id_song": 65,
+ "version": null,
+ "position": 39
+ },
+ {
+ "id": 9305,
+ "start": "66.239613",
+ "ending": "66.518241",
+ "note": "Bye",
+ "id_song": 65,
+ "version": null,
+ "position": 40
+ },
+ {
+ "id": 9306,
+ "start": "67.239613",
+ "ending": "68.518241",
+ "note": "Bye",
+ "id_song": 66,
+ "version": null,
+ "position": 41
+ },
+ {
+ "id": 9307,
+ "start": "68.239613",
+ "ending": "69.518241",
+ "note": "Hmmmmm",
+ "id_song": 67,
+ "version": null,
+ "position": 42
+ },
+ {
+ "id": 9308,
+ "start": "69.239613",
+ "ending": "70.518241",
+ "note": "Bye",
+ "id_song": 68,
+ "version": null,
+ "position": 43
+ }
+ ]

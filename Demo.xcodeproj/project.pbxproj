@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6222EA6A1C0C192A00C52835 /* lyricsdemo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6222EA681C0C192A00C52835 /* lyricsdemo.txt */; settings = {ASSET_TAGS = (); }; };
+		6222EA6B1C0C192A00C52835 /* Song1demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 6222EA691C0C192A00C52835 /* Song1demo.json */; settings = {ASSET_TAGS = (); }; };
+		6226FB581C06D48000099946 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6226FB571C06D48000099946 /* test.swift */; settings = {ASSET_TAGS = (); }; };
+		6226FB5A1C06DEDF00099946 /* lyrics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6226FB591C06DEDF00099946 /* lyrics.txt */; settings = {ASSET_TAGS = (); }; };
 		6267276E1BFCACE000F3A5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267276D1BFCACE000F3A5A1 /* AppDelegate.swift */; };
 		626727701BFCACE000F3A5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267276F1BFCACE000F3A5A1 /* ViewController.swift */; };
 		626727731BFCACE000F3A5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626727711BFCACE000F3A5A1 /* Main.storyboard */; };
 		626727751BFCACE000F3A5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626727741BFCACE000F3A5A1 /* Assets.xcassets */; };
 		626727781BFCACE000F3A5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626727761BFCACE000F3A5A1 /* LaunchScreen.storyboard */; };
+		627CAE211C02D51F00CAA660 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CAE201C02D51F00CAA660 /* CoreText.framework */; };
+		62A9B4701C0320B6004E7686 /* Song1.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A9B46F1C0320B6004E7686 /* Song1.json */; settings = {ASSET_TAGS = (); }; };
+		62A9B4741C033301004E7686 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9B4731C033301004E7686 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		62C093151C05826B002923DC /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C093141C05826B002923DC /* DTO.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6222EA681C0C192A00C52835 /* lyricsdemo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lyricsdemo.txt; sourceTree = "<group>"; };
+		6222EA691C0C192A00C52835 /* Song1demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Song1demo.json; sourceTree = "<group>"; };
+		6226FB571C06D48000099946 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		6226FB591C06DEDF00099946 /* lyrics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lyrics.txt; sourceTree = "<group>"; };
 		6267276A1BFCACE000F3A5A1 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6267276D1BFCACE000F3A5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6267276F1BFCACE000F3A5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6267276F1BFCACE000F3A5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ViewController.swift; path = Demo/ViewController.swift; sourceTree = SOURCE_ROOT; usesTabs = 0; };
 		626727721BFCACE000F3A5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		626727741BFCACE000F3A5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626727771BFCACE000F3A5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626727791BFCACE000F3A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627CAE201C02D51F00CAA660 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		62A9B46F1C0320B6004E7686 /* Song1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Song1.json; path = Demo/Songs/Song1.json; sourceTree = SOURCE_ROOT; };
+		62A9B4731C033301004E7686 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		62C093141C05826B002923DC /* DTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627CAE211C02D51F00CAA660 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +55,8 @@
 		626727611BFCACDF00F3A5A1 = {
 			isa = PBXGroup;
 			children = (
+				62A9B46E1C032069004E7686 /* Songs */,
+				627CAE201C02D51F00CAA660 /* CoreText.framework */,
 				6267276C1BFCACE000F3A5A1 /* Demo */,
 				6267276B1BFCACE000F3A5A1 /* Products */,
 			);
@@ -54,14 +73,29 @@
 		6267276C1BFCACE000F3A5A1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				62A9B4731C033301004E7686 /* SwiftyJSON.swift */,
 				6267276D1BFCACE000F3A5A1 /* AppDelegate.swift */,
 				6267276F1BFCACE000F3A5A1 /* ViewController.swift */,
 				626727711BFCACE000F3A5A1 /* Main.storyboard */,
 				626727741BFCACE000F3A5A1 /* Assets.xcassets */,
 				626727761BFCACE000F3A5A1 /* LaunchScreen.storyboard */,
 				626727791BFCACE000F3A5A1 /* Info.plist */,
+				62C093141C05826B002923DC /* DTO.swift */,
+				6226FB571C06D48000099946 /* test.swift */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		62A9B46E1C032069004E7686 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				6222EA681C0C192A00C52835 /* lyricsdemo.txt */,
+				6222EA691C0C192A00C52835 /* Song1demo.json */,
+				6226FB591C06DEDF00099946 /* lyrics.txt */,
+				62A9B46F1C0320B6004E7686 /* Song1.json */,
+			);
+			name = Songs;
+			path = Demo/Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				626727781BFCACE000F3A5A1 /* LaunchScreen.storyboard in Resources */,
+				6222EA6A1C0C192A00C52835 /* lyricsdemo.txt in Resources */,
 				626727751BFCACE000F3A5A1 /* Assets.xcassets in Resources */,
+				62A9B4701C0320B6004E7686 /* Song1.json in Resources */,
+				6222EA6B1C0C192A00C52835 /* Song1demo.json in Resources */,
+				6226FB5A1C06DEDF00099946 /* lyrics.txt in Resources */,
 				626727731BFCACE000F3A5A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A9B4741C033301004E7686 /* SwiftyJSON.swift in Sources */,
 				626727701BFCACE000F3A5A1 /* ViewController.swift in Sources */,
 				6267276E1BFCACE000F3A5A1 /* AppDelegate.swift in Sources */,
+				6226FB581C06D48000099946 /* test.swift in Sources */,
+				62C093151C05826B002923DC /* DTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +288,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -258,9 +301,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -283,6 +328,7 @@
 				6267277E1BFCACE000F3A5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
