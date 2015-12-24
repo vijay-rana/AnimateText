@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "626727691BFCACDF00F3A5A1"
-               BuildableName = "Demo.app"
+               BuildableName = "Lyrics Animation.app"
                BlueprintName = "Demo"
                ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "626727691BFCACDF00F3A5A1"
-            BuildableName = "Demo.app"
+            BuildableName = "Lyrics Animation.app"
             BlueprintName = "Demo"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "626727691BFCACDF00F3A5A1"
-            BuildableName = "Demo.app"
+            BuildableName = "Lyrics Animation.app"
             BlueprintName = "Demo"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "626727691BFCACDF00F3A5A1"
-            BuildableName = "Demo.app"
+            BuildableName = "Lyrics Animation.app"
             BlueprintName = "Demo"
             ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
