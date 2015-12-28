@@ -134,7 +134,7 @@ class LyricssongViewController: UIViewController {
                     
                     
                     UIView.animateWithDuration(timeintrvll, animations: {
-                        subviewlbl.viewWithTag(checkblklbl)?.frame = CGRectMake(subviewlbl.frame.origin.x, subviewlbl.frame.origin.y, 0, subviewlbl.frame.size.height)
+                        subviewlbl.viewWithTag(self.checkblklbl)?.frame = CGRectMake(subviewlbl.frame.origin.x, subviewlbl.frame.origin.y, 0, subviewlbl.frame.size.height)
                         
                         }, completion: {(Bool) in
                            
