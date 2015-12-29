@@ -19,6 +19,8 @@
 		62A9B4701C0320B6004E7686 /* Song1.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A9B46F1C0320B6004E7686 /* Song1.json */; settings = {ASSET_TAGS = (); }; };
 		62A9B4741C033301004E7686 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9B4731C033301004E7686 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 		62C093151C05826B002923DC /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C093141C05826B002923DC /* DTO.swift */; settings = {ASSET_TAGS = (); }; };
+		62C8A7221C316AD90081027D /* blur@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C8A7201C316AD90081027D /* blur@2x.png */; settings = {ASSET_TAGS = (); }; };
+		62C8A7231C316AD90081027D /* blur@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C8A7211C316AD90081027D /* blur@3x.png */; settings = {ASSET_TAGS = (); }; };
 		62DC24B01C20362C007C4EA9 /* LyricssongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC24AF1C20362C007C4EA9 /* LyricssongViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		62A9B46F1C0320B6004E7686 /* Song1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Song1.json; path = Demo/Songs/Song1.json; sourceTree = SOURCE_ROOT; };
 		62A9B4731C033301004E7686 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		62C093141C05826B002923DC /* DTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
+		62C8A7201C316AD90081027D /* blur@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blur@2x.png"; sourceTree = "<group>"; };
+		62C8A7211C316AD90081027D /* blur@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blur@3x.png"; sourceTree = "<group>"; };
 		62DC24AF1C20362C007C4EA9 /* LyricssongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricssongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,7 @@
 		6267276C1BFCACE000F3A5A1 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				62C8A7241C316AE20081027D /* Background Images */,
 				62A9B4731C033301004E7686 /* SwiftyJSON.swift */,
 				6267276D1BFCACE000F3A5A1 /* AppDelegate.swift */,
 				62DC24AF1C20362C007C4EA9 /* LyricssongViewController.swift */,
@@ -96,6 +101,15 @@
 			);
 			name = Songs;
 			path = Demo/Songs;
+			sourceTree = "<group>";
+		};
+		62C8A7241C316AE20081027D /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				62C8A7211C316AD90081027D /* blur@3x.png */,
+				62C8A7201C316AD90081027D /* blur@2x.png */,
+			);
+			name = "Background Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +174,10 @@
 				626727751BFCACE000F3A5A1 /* Assets.xcassets in Resources */,
 				62A9B4701C0320B6004E7686 /* Song1.json in Resources */,
 				6222EA6B1C0C192A00C52835 /* Song1demo.json in Resources */,
+				62C8A7221C316AD90081027D /* blur@2x.png in Resources */,
 				6226FB5A1C06DEDF00099946 /* lyrics.txt in Resources */,
 				626727731BFCACE000F3A5A1 /* Main.storyboard in Resources */,
+				62C8A7231C316AD90081027D /* blur@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

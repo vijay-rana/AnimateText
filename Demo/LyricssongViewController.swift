@@ -35,31 +35,50 @@ class LyricssongViewController: UIViewController {
      var checkblklbl = 0
     
     var wordCountNumb = 0
+  //variable for seting font size
+    var fontSize = CGFloat()
+    let fontName = "AlNile-Bold"
+    var textColor = UIColor()
     
-   
     override func viewDidLoad() {
         super.viewDidLoad()
        
         // Do any additional setup after loading the view.
+        
+        //setting Background images-----------
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blur.png")!)
+        
+        //setting font size-----------
+        fontSize = 25.0
+        
+        //setting text color
+        textColor = UIColor(red: 231/255, green: 180/255, blue: 53/255, alpha: 1.0)
+        
         self.GetLyrics()
        GetLyricsText()
-        first.textColor = UIColor.redColor()
+        first.textColor = textColor
+        first.font =  UIFont(name: fontName, size: fontSize)
         first.alpha = 0.5
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "timerLabel", userInfo: nil, repeats: true)
        
         third.text = LineLyricsList[1].Line
-   
+        third.font = UIFont(name: fontName, size: fontSize)
         forth.text = LineLyricsList[2].Line
-     
+        forth.font =  UIFont(name: fontName, size: fontSize)
         fifth.text = LineLyricsList[3].Line
+        fifth.font =  UIFont(name: fontName, size: fontSize)
         sixth.text = LineLyricsList[4].Line
+        sixth.font =  UIFont(name: fontName, size: fontSize)
         sixth.alpha = 0.5
        
         //setting another label
         print(LineLyricsList.count)
         let lblsizearr = sendWidth()
         var rlblx = CGFloat()
+        let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
         
+        let xRBlbl = second.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
+        print(toatalWidthFloat)
         for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
         {
             
@@ -70,16 +89,16 @@ class LyricssongViewController: UIViewController {
             blacklbl.tag = k + 1
             redLabel.tag = k + 20
             
-                 redLabel.frame = CGRectMake(0 + rlblx,0, widthvalue, second.frame.size.height)
-            blacklbl.frame = CGRectMake(0 + rlblx,0, widthvalue, second.frame.size.height)
+                 redLabel.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+            blacklbl.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
                  rlblx = rlblx + widthvalue - 6
            
             //print("pso x rlbl",rlblx,widthvalue)
             redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
             blacklbl.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
-             redLabel.font = UIFont.boldSystemFontOfSize(20)
-              blacklbl.font = UIFont.boldSystemFontOfSize(20)
-            redLabel.textColor = UIColor.redColor()
+            redLabel.textColor = textColor
+            redLabel.font = UIFont(name: fontName, size: fontSize + 5.0)
+            blacklbl.font =  UIFont(name: fontName, size: fontSize + 5.0)
             
             redLabel.textAlignment = NSTextAlignment.Left
             blacklbl.textAlignment = NSTextAlignment.Left
@@ -159,7 +178,11 @@ class LyricssongViewController: UIViewController {
         {
             let lblsizearr = sendWidth()
             var rlblx = CGFloat()
+            let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
             
+            let xRBlbl = second.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
+            print(toatalWidthFloat)
+
             for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
             {
                 
@@ -170,16 +193,16 @@ class LyricssongViewController: UIViewController {
                 redLabel.tag = k + 20
                 blacklbl.tag = k + 1
                 
-                redLabel.frame = CGRectMake(0 + rlblx,0, widthvalue, second.frame.size.height)
-                blacklbl.frame = CGRectMake(0 + rlblx,0, widthvalue, second.frame.size.height)
+                redLabel.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                blacklbl.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
                 rlblx = rlblx + widthvalue - 6
                 
                 //   print("pso x rlbl",rlblx,widthvalue)
                 redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
                 blacklbl.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
-                redLabel.font = UIFont.boldSystemFontOfSize(20)
-                blacklbl.font = UIFont.boldSystemFontOfSize(20)
-                redLabel.textColor = UIColor.redColor()
+                redLabel.font = UIFont(name: fontName, size: fontSize + 5.0)
+                blacklbl.font =  UIFont(name: fontName, size: fontSize + 5.0)
+                redLabel.textColor = textColor
                 
                 redLabel.textAlignment = NSTextAlignment.Left
                 blacklbl.textAlignment = NSTextAlignment.Left
@@ -356,6 +379,7 @@ class LyricssongViewController: UIViewController {
         
         checkblklbl = countWords.objectAtIndex(0).count
         var timeIntrvalWord = Double()
+        var totalWidth = CGFloat()
         for(var k = 0 ; k < countWords.objectAtIndex(0).count ; k++ )
         {
             
@@ -380,13 +404,16 @@ class LyricssongViewController: UIViewController {
             let lyrstrs:NSString = LiricsList[wordCountNumb].Word
             wordTextArray.addObject(lyrstrs)
             
-            let sizelabel:CGSize = lyrstrs .sizeWithAttributes([NSFontAttributeName: UIFont.systemFontOfSize(30.0)])
+            let sizelabel:CGSize = lyrstrs .sizeWithAttributes([NSFontAttributeName: UIFont.systemFontOfSize(fontSize + 10.0)])
             widthArray.addObject(sizelabel.width)
-           
+           totalWidth = totalWidth + sizelabel.width
             wordCountNumb++
         }
+       
+        let totalWidthArray = NSMutableArray()
+        totalWidthArray.addObject(totalWidth)
         
-        let widthTimarr = NSArray(array: [widthArray,timeArray,wordTextArray])
+        let widthTimarr = NSArray(array: [widthArray,timeArray,wordTextArray,totalWidthArray])
           count++
         
         return widthTimarr
