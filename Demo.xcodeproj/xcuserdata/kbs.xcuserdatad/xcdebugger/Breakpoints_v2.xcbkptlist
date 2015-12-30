@@ -193,38 +193,6 @@
             endingLineNumber = "747"
             landmarkName = "SetText(_:Line:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.SetText (Demo.ViewController)(Swift.Int, Line : Swift.String) -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.125537"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "747"
-                  endingLineNumber = "747"
-                  offsetFromSymbolStart = "10402">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.SetText (Demo.ViewController)(Swift.Int, Line : Swift.String) -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.12586"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "747"
-                  endingLineNumber = "747"
-                  offsetFromSymbolStart = "10592">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -410,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "274"
-            endingLineNumber = "274"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
             landmarkName = "GetLyrics()"
             landmarkType = "5">
          </BreakpointContent>
@@ -426,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "408"
-            endingLineNumber = "408"
+            startingLineNumber = "436"
+            endingLineNumber = "436"
             landmarkName = "LyricssongViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -442,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "412"
-            endingLineNumber = "412">
+            startingLineNumber = "440"
+            endingLineNumber = "440">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -527,53 +495,6 @@
             endingLineNumber = "213"
             landmarkName = "GetLyricsText()"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.GetLyricsText (Demo.ViewController)() -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.139208"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "215"
-                  endingLineNumber = "215"
-                  offsetFromSymbolStart = "3237">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.GetLyricsText (Demo.ViewController)() -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.139376"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "215"
-                  endingLineNumber = "215"
-                  offsetFromSymbolStart = "3248">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.GetLyricsText (Demo.ViewController)() -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.139514"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "215"
-                  endingLineNumber = "215"
-                  offsetFromSymbolStart = "3640">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -830,38 +751,6 @@
             endingLineNumber = "708"
             landmarkName = "SetText(_:Line:)"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.SetText (Demo.ViewController)(Swift.Int, Line : Swift.String) -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.152452"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "708"
-                  endingLineNumber = "708"
-                  offsetFromSymbolStart = "1974">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Demo.ViewController.SetText (Demo.ViewController)(Swift.Int, Line : Swift.String) -&gt; ()"
-                  moduleName = "Demo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kbs/Desktop/vijay%20animate%20proj/AnimateText-master/Demo/ViewController.swift"
-                  timestampString = "472378512.152695"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "708"
-                  endingLineNumber = "708"
-                  offsetFromSymbolStart = "2164">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -871,11 +760,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "324"
-            endingLineNumber = "324"
+            startingLineNumber = "348"
+            endingLineNumber = "348"
             landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "5">
          </BreakpointContent>
@@ -887,11 +776,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473063330.653153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -903,11 +792,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473063330.653153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -919,11 +808,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473063330.653153"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -935,11 +824,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
             landmarkName = "GetLyrics()"
             landmarkType = "5">
          </BreakpointContent>
@@ -951,11 +840,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
             landmarkName = "changeLine()"
             landmarkType = "5">
          </BreakpointContent>
@@ -967,11 +856,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Demo/LyricssongViewController.swift"
-            timestampString = "472453545.926473"
+            timestampString = "473173762.404075"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
+            startingLineNumber = "261"
+            endingLineNumber = "261"
             landmarkName = "changeLine()"
             landmarkType = "5">
          </BreakpointContent>

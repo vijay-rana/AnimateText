@@ -77,7 +77,7 @@ class LyricssongViewController: UIViewController {
         var rlblx = CGFloat()
         let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
         
-        let xRBlbl = second.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
+        let xRBlbl = self.view.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
         print(toatalWidthFloat)
         for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
         {
@@ -89,20 +89,21 @@ class LyricssongViewController: UIViewController {
             blacklbl.tag = k + 1
             redLabel.tag = k + 20
             
-                 redLabel.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
-            blacklbl.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                 redLabel.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+            
+            blacklbl.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
                  rlblx = rlblx + widthvalue - 6
            
-            //print("pso x rlbl",rlblx,widthvalue)
+           
             redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
             blacklbl.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
             redLabel.textColor = textColor
             redLabel.font = UIFont(name: fontName, size: fontSize + 5.0)
             blacklbl.font =  UIFont(name: fontName, size: fontSize + 5.0)
             
-            redLabel.textAlignment = NSTextAlignment.Left
-            blacklbl.textAlignment = NSTextAlignment.Left
-            //print(redLabel.text,blacklbl.text)
+//            redLabel.textAlignment = NSTextAlignment.Left
+//            blacklbl.textAlignment = NSTextAlignment.Left
+//            //print(redLabel.text,blacklbl.text)
             self.second.addSubview(redLabel)
             self.second.addSubview(blacklbl)
             
@@ -181,7 +182,7 @@ class LyricssongViewController: UIViewController {
             let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
             
             let xRBlbl = second.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
-            print(toatalWidthFloat)
+            print(second.frame.size.width)
 
             for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
             {
@@ -193,11 +194,11 @@ class LyricssongViewController: UIViewController {
                 redLabel.tag = k + 20
                 blacklbl.tag = k + 1
                 
-                redLabel.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
-                blacklbl.frame = CGRectMake(0 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                redLabel.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                blacklbl.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
                 rlblx = rlblx + widthvalue - 6
                 
-                //   print("pso x rlbl",rlblx,widthvalue)
+                
                 redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
                 blacklbl.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
                 redLabel.font = UIFont(name: fontName, size: fontSize + 5.0)
