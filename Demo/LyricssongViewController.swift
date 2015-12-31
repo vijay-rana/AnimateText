@@ -46,7 +46,8 @@ class LyricssongViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //setting Background images-----------
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blur.png")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundBlurImage")!)
+        
         
         //setting font size-----------
         fontSize = 25.0
@@ -78,7 +79,7 @@ class LyricssongViewController: UIViewController {
         let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
         
         let xRBlbl = self.view.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
-        print(toatalWidthFloat)
+        print(self.view.frame.height)
         for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
         {
             
