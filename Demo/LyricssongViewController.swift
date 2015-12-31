@@ -10,20 +10,22 @@ import UIKit
 
 class LyricssongViewController: UIViewController {
 
+    var constFontSize:CGFloat = 30.0
     
-    @IBOutlet weak var first: UILabel!
+   var first = UILabel()
     
-    @IBOutlet weak var second: UILabel!
+    var second = UILabel()
     
-    @IBOutlet weak var third: UILabel!
+    var third = UILabel()
     
-    @IBOutlet weak var forth: UILabel!
+     var forth = UILabel()
   
-    @IBOutlet weak var fifth: UILabel!
+     var fifth = UILabel()
    
+    var sixth = UILabel()
     @IBOutlet weak var timer: UILabel!
 
-    @IBOutlet weak var sixth: UILabel!
+    
     var count = 0
     var timerLbl = 0
     var countTimer = NSTimer()
@@ -34,9 +36,11 @@ class LyricssongViewController: UIViewController {
     var blacklbl = UILabel()
      var checkblklbl = 0
     
+    
     var wordCountNumb = 0
   //variable for seting font size
-    var fontSize = CGFloat()
+    var fontSize: CGFloat = 30.0
+    
     let fontName = "AlNile-Bold"
     var textColor = UIColor()
     
@@ -45,12 +49,76 @@ class LyricssongViewController: UIViewController {
        
         // Do any additional setup after loading the view.
         
+       
+        //setting frame uilable
+       if(self.view.frame.height == 667.0)
+       {
+        let incSize :CGFloat = 50
+        let lblY:CGFloat = 70
+        first.frame = CGRectMake(0, lblY, self.view.frame.size.width, incSize)
+        self.view.addSubview(first)
+        first.textAlignment = NSTextAlignment.Center
+        
+        second.frame = CGRectMake(0,lblY + incSize + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(second)
+        
+        third.frame = CGRectMake(0, lblY + incSize * 2 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(third)
+        third.textAlignment = NSTextAlignment.Center
+        
+        forth.frame = CGRectMake(0, lblY + incSize * 3 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(forth)
+        forth.textAlignment = NSTextAlignment.Center
+        
+        fifth.frame = CGRectMake(0, lblY + incSize * 4 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(fifth)
+        fifth.textAlignment = NSTextAlignment.Center
+        
+        sixth.frame = CGRectMake(0, lblY + incSize * 5 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(sixth)
+        sixth.textAlignment = NSTextAlignment.Center
+        //setting font size-----------
+        
+        fontSize = fontSize + 5.0
+        
+        }
+        else
+       {
+        //setting font size-----------
+        
+        let incSize :CGFloat = 40
+        let lblY:CGFloat = 70
+        first.frame = CGRectMake(0, lblY, self.view.frame.size.width, incSize)
+        self.view.addSubview(first)
+        first.textAlignment = NSTextAlignment.Center
+        
+        second.frame = CGRectMake(0,lblY + incSize + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(second)
+        
+        third.frame = CGRectMake(0, lblY + incSize * 2 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(third)
+        third.textAlignment = NSTextAlignment.Center
+        
+        forth.frame = CGRectMake(0, lblY + incSize * 3 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(forth)
+        forth.textAlignment = NSTextAlignment.Center
+        
+        fifth.frame = CGRectMake(0, lblY + incSize * 4 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(fifth)
+        fifth.textAlignment = NSTextAlignment.Center
+        
+        sixth.frame = CGRectMake(0, lblY + incSize * 5 + 10, self.view.frame.size.width, incSize)
+        self.view.addSubview(sixth)
+        sixth.textAlignment = NSTextAlignment.Center
+        
+        
+        
+        }
+    
         //setting Background images-----------
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundBlurImage")!)
         
-        
-        //setting font size-----------
-        fontSize = 25.0
+     
         
         //setting text color
         textColor = UIColor(red: 231/255, green: 180/255, blue: 53/255, alpha: 1.0)
