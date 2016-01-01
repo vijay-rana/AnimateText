@@ -36,7 +36,7 @@ class LyricssongViewController: UIViewController {
     var blacklbl = UILabel()
      var checkblklbl = 0
     
-    
+    let distanceBtwnLine:CGFloat = 0
     var wordCountNumb = 0
   //variable for seting font size
     var fontSize: CGFloat = 30.0
@@ -53,28 +53,28 @@ class LyricssongViewController: UIViewController {
         //setting frame uilable
        if(self.view.frame.height == 667.0)
        {
-        let incSize :CGFloat = 50
+        let incSize :CGFloat = 40
         let lblY:CGFloat = 70
-        first.frame = CGRectMake(0, lblY, self.view.frame.size.width, incSize)
+        first.frame = CGRectMake(0, lblY + distanceBtwnLine + incSize, self.view.frame.size.width, incSize)
         self.view.addSubview(first)
         first.textAlignment = NSTextAlignment.Center
         
-        second.frame = CGRectMake(0,lblY + incSize + 10, self.view.frame.size.width, incSize)
+        second.frame = CGRectMake(0,lblY +  (incSize + distanceBtwnLine) * 2 , self.view.frame.size.width, incSize)
         self.view.addSubview(second)
         
-        third.frame = CGRectMake(0, lblY + incSize * 2 + 10, self.view.frame.size.width, incSize)
+        third.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 3, self.view.frame.size.width, incSize)
         self.view.addSubview(third)
         third.textAlignment = NSTextAlignment.Center
         
-        forth.frame = CGRectMake(0, lblY + incSize * 3 + 10, self.view.frame.size.width, incSize)
+        forth.frame = CGRectMake(0, lblY +  (incSize + distanceBtwnLine) * 4, self.view.frame.size.width, incSize)
         self.view.addSubview(forth)
         forth.textAlignment = NSTextAlignment.Center
         
-        fifth.frame = CGRectMake(0, lblY + incSize * 4 + 10, self.view.frame.size.width, incSize)
+        fifth.frame = CGRectMake(0, lblY +  (incSize + distanceBtwnLine) * 5, self.view.frame.size.width, incSize)
         self.view.addSubview(fifth)
         fifth.textAlignment = NSTextAlignment.Center
         
-        sixth.frame = CGRectMake(0, lblY + incSize * 5 + 10, self.view.frame.size.width, incSize)
+        sixth.frame = CGRectMake(0, lblY +  (incSize + distanceBtwnLine) * 6, self.view.frame.size.width, incSize)
         self.view.addSubview(sixth)
         sixth.textAlignment = NSTextAlignment.Center
         //setting font size-----------
@@ -88,26 +88,26 @@ class LyricssongViewController: UIViewController {
         
         let incSize :CGFloat = 40
         let lblY:CGFloat = 70
-        first.frame = CGRectMake(0, lblY, self.view.frame.size.width, incSize)
+        first.frame = CGRectMake(0, lblY + distanceBtwnLine + incSize, self.view.frame.size.width, incSize)
         self.view.addSubview(first)
         first.textAlignment = NSTextAlignment.Center
         
-        second.frame = CGRectMake(0,lblY + incSize + 10, self.view.frame.size.width, incSize)
+        second.frame = CGRectMake(0,lblY + (incSize + distanceBtwnLine) * 2, self.view.frame.size.width, incSize)
         self.view.addSubview(second)
         
-        third.frame = CGRectMake(0, lblY + incSize * 2 + 10, self.view.frame.size.width, incSize)
+        third.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 3 , self.view.frame.size.width, incSize)
         self.view.addSubview(third)
         third.textAlignment = NSTextAlignment.Center
         
-        forth.frame = CGRectMake(0, lblY + incSize * 3 + 10, self.view.frame.size.width, incSize)
+        forth.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 4 , self.view.frame.size.width, incSize)
         self.view.addSubview(forth)
         forth.textAlignment = NSTextAlignment.Center
         
-        fifth.frame = CGRectMake(0, lblY + incSize * 4 + 10, self.view.frame.size.width, incSize)
+        fifth.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 5 , self.view.frame.size.width, incSize)
         self.view.addSubview(fifth)
         fifth.textAlignment = NSTextAlignment.Center
         
-        sixth.frame = CGRectMake(0, lblY + incSize * 5 + 10, self.view.frame.size.width, incSize)
+        sixth.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 6, self.view.frame.size.width, incSize)
         self.view.addSubview(sixth)
         sixth.textAlignment = NSTextAlignment.Center
         
