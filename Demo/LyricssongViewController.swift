@@ -51,7 +51,7 @@ class LyricssongViewController: UIViewController {
         
        
         //setting frame uilable
-       if(self.view.frame.height == 667.0)
+       if(self.view.frame.height == 667.0 || self.view.frame.size.height == 736.0)
        {
         let incSize :CGFloat = 40
         let lblY:CGFloat = 70
@@ -80,6 +80,7 @@ class LyricssongViewController: UIViewController {
         //setting font size-----------
         
         fontSize = fontSize + 5.0
+        
         
         }
         else
@@ -110,13 +111,20 @@ class LyricssongViewController: UIViewController {
         sixth.frame = CGRectMake(0, lblY + (incSize + distanceBtwnLine) * 6, self.view.frame.size.width, incSize)
         self.view.addSubview(sixth)
         sixth.textAlignment = NSTextAlignment.Center
-        
-        
+      
         
         }
     
         //setting Background images-----------
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundBlurImage")!)
+        if(self.view.frame.size.height == 736.0)
+        {
+            self.view.backgroundColor = UIColor(patternImage: UIImage(named: "1536_2048.png")!)
+        }
+        else
+        {
+             self.view.backgroundColor = UIColor(patternImage: UIImage(named: "BackgroundBlurImage")!)
+        }
+       
         
      
         
@@ -147,7 +155,7 @@ class LyricssongViewController: UIViewController {
         let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
         
         let xRBlbl = self.view.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
-        print(self.view.frame.height)
+        print(second.frame)
         for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
         {
             
@@ -158,10 +166,10 @@ class LyricssongViewController: UIViewController {
             blacklbl.tag = k + 1
             redLabel.tag = k + 20
             
-                 redLabel.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                 redLabel.frame = CGRectMake(10 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
             
-            blacklbl.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
-                 rlblx = rlblx + widthvalue - 6
+            blacklbl.frame = CGRectMake(10 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                 rlblx = rlblx + widthvalue
            
            
             redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
@@ -263,9 +271,9 @@ class LyricssongViewController: UIViewController {
                 redLabel.tag = k + 20
                 blacklbl.tag = k + 1
                 
-                redLabel.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
-                blacklbl.frame = CGRectMake(14 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
-                rlblx = rlblx + widthvalue - 6
+                redLabel.frame = CGRectMake(10 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                blacklbl.frame = CGRectMake(10 + rlblx + xRBlbl,0, widthvalue, second.frame.size.height)
+                rlblx = rlblx + widthvalue
                 
                 
                 redLabel.text = lblsizearr.objectAtIndex(2).objectAtIndex(lblsizearr.objectAtIndex(2).count - k - 1) as! String
@@ -288,9 +296,7 @@ class LyricssongViewController: UIViewController {
         {
             second.text = ""
         }
-        
-        
-        
+    
         n++
         
         if(n < LineLyricsList.count )
