@@ -16,6 +16,7 @@
 		626727751BFCACE000F3A5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626727741BFCACE000F3A5A1 /* Assets.xcassets */; };
 		626727781BFCACE000F3A5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626727761BFCACE000F3A5A1 /* LaunchScreen.storyboard */; };
 		627CAE211C02D51F00CAA660 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CAE201C02D51F00CAA660 /* CoreText.framework */; };
+		62A87CE21C369CEE00BD5BF5 /* 1536_2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 62A87CE11C369CEE00BD5BF5 /* 1536_2048.png */; settings = {ASSET_TAGS = (); }; };
 		62A9B4701C0320B6004E7686 /* Song1.json in Resources */ = {isa = PBXBuildFile; fileRef = 62A9B46F1C0320B6004E7686 /* Song1.json */; settings = {ASSET_TAGS = (); }; };
 		62A9B4741C033301004E7686 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A9B4731C033301004E7686 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 		62C093151C05826B002923DC /* DTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C093141C05826B002923DC /* DTO.swift */; settings = {ASSET_TAGS = (); }; };
@@ -34,6 +35,7 @@
 		626727771BFCACE000F3A5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626727791BFCACE000F3A5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		627CAE201C02D51F00CAA660 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		62A87CE11C369CEE00BD5BF5 /* 1536_2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1536_2048.png; sourceTree = "<group>"; };
 		62A9B46F1C0320B6004E7686 /* Song1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Song1.json; path = Demo/Songs/Song1.json; sourceTree = SOURCE_ROOT; };
 		62A9B4731C033301004E7686 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		62C093141C05826B002923DC /* DTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTO.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				62A9B4731C033301004E7686 /* SwiftyJSON.swift */,
 				6267276D1BFCACE000F3A5A1 /* AppDelegate.swift */,
 				62DC24AF1C20362C007C4EA9 /* LyricssongViewController.swift */,
+				62A87CE11C369CEE00BD5BF5 /* 1536_2048.png */,
 				626727711BFCACE000F3A5A1 /* Main.storyboard */,
 				626727741BFCACE000F3A5A1 /* Assets.xcassets */,
 				626727761BFCACE000F3A5A1 /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 				6222EA6A1C0C192A00C52835 /* lyricsdemo.txt in Resources */,
 				626727751BFCACE000F3A5A1 /* Assets.xcassets in Resources */,
 				62A9B4701C0320B6004E7686 /* Song1.json in Resources */,
+				62A87CE21C369CEE00BD5BF5 /* 1536_2048.png in Resources */,
 				6222EA6B1C0C192A00C52835 /* Song1demo.json in Resources */,
 				6226FB5A1C06DEDF00099946 /* lyrics.txt in Resources */,
 				626727731BFCACE000F3A5A1 /* Main.storyboard in Resources */,

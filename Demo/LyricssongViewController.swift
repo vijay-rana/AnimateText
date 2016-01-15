@@ -133,6 +133,7 @@ class LyricssongViewController: UIViewController {
         
         self.GetLyrics()
        GetLyricsText()
+        print(LineLyricsList)
         first.textColor = textColor
         first.font =  UIFont(name: fontName, size: fontSize)
         first.alpha = 0.5
@@ -149,13 +150,13 @@ class LyricssongViewController: UIViewController {
         sixth.alpha = 0.5
        
         //setting another label
-        print(LineLyricsList.count)
+       
         let lblsizearr = sendWidth()
         var rlblx = CGFloat()
         let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
         
         let xRBlbl = self.view.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
-        print(second.frame)
+        
         for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
         {
             
@@ -178,8 +179,8 @@ class LyricssongViewController: UIViewController {
             redLabel.font = UIFont(name: fontName, size: fontSize + 5.0)
             blacklbl.font =  UIFont(name: fontName, size: fontSize + 5.0)
             
-//            redLabel.textAlignment = NSTextAlignment.Left
-//            blacklbl.textAlignment = NSTextAlignment.Left
+            redLabel.textAlignment = NSTextAlignment.Center
+            blacklbl.textAlignment = NSTextAlignment.Center
 //            //print(redLabel.text,blacklbl.text)
             self.second.addSubview(redLabel)
             self.second.addSubview(blacklbl)
@@ -259,7 +260,7 @@ class LyricssongViewController: UIViewController {
             let toatalWidthFloat:NSNumber = lblsizearr.objectAtIndex(3).objectAtIndex(0).floatValue;
             
             let xRBlbl = second.frame.size.width/2 - CGFloat(toatalWidthFloat.integerValue/2)
-            print(second.frame.size.width)
+            
 
             for (var k = 0 ; k < lblsizearr.objectAtIndex(2).count ; k++)
             {
@@ -282,8 +283,8 @@ class LyricssongViewController: UIViewController {
                 blacklbl.font =  UIFont(name: fontName, size: fontSize + 5.0)
                 redLabel.textColor = textColor
                 
-                redLabel.textAlignment = NSTextAlignment.Left
-                blacklbl.textAlignment = NSTextAlignment.Left
+                redLabel.textAlignment = NSTextAlignment.Center
+                blacklbl.textAlignment = NSTextAlignment.Center
                 // print(redLabel.text,blacklbl.text)
                 self.second.addSubview(redLabel)
                 self.second.addSubview(blacklbl)
@@ -441,7 +442,17 @@ class LyricssongViewController: UIViewController {
         let widthArray = NSMutableArray()
         let timeArray = NSMutableArray()
         let wordTextArray = NSMutableArray()
-        let linetimeInterval : Double = Double(LineLyricsList[count].EndTime)! - Double(LineLyricsList[count].StartTime)!
+        let linetimeInterval : Double
+        if(count < LineLyricsList.count - 1)
+        {
+             linetimeInterval = Double(LineLyricsList[count + 1].StartTime)! - Double(LineLyricsList[count ].StartTime)!
+        }
+        else
+        {
+             linetimeInterval = Double(LineLyricsList[count].EndTime)! - Double(LineLyricsList[count ].StartTime)!
+        }
+        
+        print(linetimeInterval)
         if(count == 0)
         {
           NSTimer.scheduledTimerWithTimeInterval(Double(LineLyricsList[count].EndTime)!, target: self, selector: "changeLine", userInfo: nil, repeats: false)
@@ -465,6 +476,7 @@ class LyricssongViewController: UIViewController {
             let wordInterval : Double = wordEndtime - wordStarttime
            
             timeArray.addObject(wordInterval)
+            
             if(count == 0)
             {
                  NSTimer.scheduledTimerWithTimeInterval(wordStarttime , target: self, selector: "changeColor:", userInfo: wordInterval, repeats: false)
@@ -479,8 +491,8 @@ class LyricssongViewController: UIViewController {
             
             let lyrstrs:NSString = LiricsList[wordCountNumb].Word
             wordTextArray.addObject(lyrstrs)
-            
-            let sizelabel:CGSize = lyrstrs .sizeWithAttributes([NSFontAttributeName: UIFont.systemFontOfSize(fontSize + 10.0)])
+           
+            let sizelabel:CGSize = lyrstrs .sizeWithAttributes([NSFontAttributeName: UIFont.boldSystemFontOfSize(fontSize + 3)])
             widthArray.addObject(sizelabel.width)
            totalWidth = totalWidth + sizelabel.width
             wordCountNumb++
